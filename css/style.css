@@ -1,0 +1,644 @@
+/* ===========================
+        Common css start
+============================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* ===========================
+        Common css end
+============================ */
+
+
+/* ===========================
+        Header css start
+============================ */
+header{
+    padding: 40px 0;
+}
+header .logo img{
+    margin-left: 45px;
+}
+header .search{
+    position: relative;
+}
+header .search input{
+    width: 650px;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+    outline: 0;
+    padding-left: 40px;
+}
+header .search input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #c1c1c1;
+    font-weight: 400;
+}
+header .search span{
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    color: #C4C4C4;
+}
+header .nav-icons span{
+    font-size: 35px;
+    color: #C4C4C4;
+    margin-left: 35px;
+}
+header .nav-icons .toggle{
+    color: #32D74B;
+}
+header .profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .profile .name h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    font-weight: 400;
+    margin-top: 20px;
+}
+header .profile .img{
+    width: 60px;
+    height: 60px;
+    background: #797979;
+    border-radius: 50%;
+    margin-top: -6px;
+    overflow: hidden;
+}
+header .profile .img img{
+    width: 100%;
+}
+/* ===========================
+        Header css end
+============================ */
+
+/* ===========================
+        main parts css start
+============================ */
+#main-parts nav{
+    padding: 40px 15px;
+    height: 100vh;
+}
+
+#main-parts nav ul li a{
+    display: inline-block;
+    color: #3d3d3d;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+#main-parts nav ul li a i{
+    font-size: 25px;
+    color: #E42313;
+}
+#main-parts nav ul li .navitems.active i{
+    color: #fff;
+}
+#main-parts nav ul li a span{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #3d3d3d;
+    font-weight: 700;
+    margin-left: 15px;
+}
+#main-parts nav ul li .navitems.active {
+    background: #E42313;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 90%;
+}
+#main-parts nav ul li .navitems.active span{
+    font-weight: 400;
+}
+#main-parts nav ul .navitems.active a{
+    color: #fff;
+}
+#main-parts nav ul .navitems.active span{
+    color: #fff;
+}
+#main-parts .dash-body{
+    background: #E5E5E5;
+    padding-bottom: 100px;
+    height: auto;
+}
+#main-parts .dash-body .inner-nav ul{
+    border-bottom: 2px solid #c0bfbf;
+}
+#main-parts .dash-body .inner-nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 15px 0;
+}
+#main-parts .dash-body .inner-nav ul li a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #3d3d3d;
+    font-weight: 600;
+}
+#main-parts .dash-body .inner-nav ul li .course{
+    position: relative;
+}
+#main-parts .dash-body .inner-nav ul li .course::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: -40px;
+    width: 0px;
+    height: 2px;
+    background: #E42313;
+}
+#main-parts .dash-body .inner-nav ul li .course.activeCourse{
+    color: #E42313;
+}
+#main-parts .dash-body .inner-nav ul li .course.activeCourse::after{
+    width: 160px;
+    background: #E42313;
+}
+#main-parts .dash-body .details{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#main-parts .dash-body .details .top{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(288.26deg, #E42313 -8.52%, #F68B1F 129.05%);
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+#main-parts .dash-body .details .top .img{
+    width: 18%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+#main-parts .dash-body .details .top .img img{
+    width: 100%;
+}
+#main-parts .dash-body .details .top .sub-details{
+    width: 72%;
+    margin-top: -10px;
+}
+#main-parts .dash-body .details .top .sub-details h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+#main-parts .dash-body .details .top .sub-details h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+#main-parts .dash-body .details .top .sub-details .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+#main-parts .dash-body .details .top .sub-details .button h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+#main-parts .dash-body .details .top .sub-details .button a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    background: #F68B1F;
+    border: 1px solid #F68B1F;
+    border-radius: 10px;
+    padding: 12px 40px;
+    margin-top: -26px;
+    filter: drop-shadow(0 1rem 0.75rem rgba(0, 0, 0, 0.13));
+}
+#main-parts .dash-body .details .bottom{
+    padding: 40px 50px;
+}
+#main-parts .dash-body .details .bottom .header h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #3D3D3D;
+    font-weight: 700;
+}
+#main-parts .dash-body .details .bottom table{
+    margin-top: 30px;
+}
+#main-parts .dash-body .details .bottom table tr td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #797979;
+    font-weight: 400;
+    line-height: 39px;
+}
+#main-parts .dash-body .status{
+    background: linear-gradient(289.02deg, #E42313 30.75%, #F68B1F 130.01%);
+    border-radius: 15px;
+    padding: 30px 50px;
+
+}
+#main-parts .dash-body .status .header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+}
+#main-parts .dash-body .status table{
+    margin-top: 27px;
+}
+#main-parts .dash-body .status table tr td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 39px;
+}
+#main-parts .dash-body table tr .mltd{
+    padding-left: 60px;
+}
+#main-parts .dash-body .inner-status{
+    margin-top: 50px;
+}
+#main-parts .dash-body .inner-status .all-status{
+    background: rgba(196, 196, 196, 0.18);
+    border-radius: 15px;
+    padding: 17px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-parts .dash-body .inner-status .all-status h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 28px;
+}
+#main-parts .dash-body .inner-status .all-status a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    background: #E42313;
+    border-radius: 5px;
+    padding: 3px 11px;
+
+}
+#main-parts .dash-body .inner-status .all-status .btn-done{
+    background: #F68B1F;
+}
+
+#main-parts .dash-body .fees .item{
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+#main-parts .dash-body .fees .item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+#main-parts .dash-body .fees .item h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+#main-parts .dash-body .fees .middle{
+    position: relative;
+}
+#main-parts .dash-body .fees .middle::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 1px;
+    height: 70%;
+    background: #F68B1F;
+}
+#main-parts .dash-body .fees .middle::after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 1px;
+    height: 70%;
+    background: #F68B1F;
+}
+#main-parts .dash-body .total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#main-parts .dash-body .total h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+#main-parts .dash-body .status p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 40px;
+}
+#main-parts .dash-body .status .button a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    background: #F68B1F;
+    border: 1px solid #F68B1F;
+    border-radius: 10px;
+    padding: 12px 40px;
+    margin-top: 30px;
+    filter: drop-shadow(0 1rem 0.75rem rgba(0, 0, 0, 0.13));
+}
+#main-parts .dash-body .education{
+    background: #fff;
+    border-radius: 15px;
+    padding: 23px 28px;
+    margin-top: 15px;
+}
+#main-parts .dash-body .education h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #3D3D3D;
+    font-weight: 700;
+    line-height: 31px;
+}
+#main-parts .dash-body .education .edu-value{
+    background: #F8FCE9;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#main-parts .dash-body .education .edu-value h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#E42313;
+    font-weight: 600;
+    line-height: 39px;
+}
+#main-parts .dash-body .education .edu-value h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #797979;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 20px;
+}
+#main-parts .dash-body .education .edu-value h6 span{
+    display: block;
+}
+#main-parts .dash-body .fa_stu_status .left{
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+#main-parts .dash-body .fa_stu_status .left .header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #3D3D3D;
+    font-weight: 700;
+    line-height: 31px;
+}
+#main-parts .dash-body .fa_stu_status .left .inner-part{
+    background: #F8FCE9;
+    border-radius: 10px;
+    padding: 14px;
+    margin-top: 25px;
+}
+#main-parts .dash-body .fa_stu_status .left .inner-part .inner-item span{
+    display: flex;
+}
+#main-parts .dash-body .fa_stu_status .left .inner-part .inner-item span i{
+    font-size: 20px;
+    color: #F68B1F;
+    line-height: 24px;
+}
+#main-parts .dash-body .fa_stu_status .left .inner-part .inner-item span h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #3D3D3D;
+    font-weight: 600;
+    margin-left: 15px;
+}
+#main-parts .dash-body .fa_stu_status .left .inner-part p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #797979;
+    font-weight: 400;
+    line-height: 26px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project{
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 30px 15px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project .inner-pro{
+    background: #F8FCE9;
+    border-radius: 10px;
+    padding: 14px;
+    margin-top: 30px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project .inner-pro p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #797979;
+    font-weight: 400;
+    margin: 10px 0;
+}
+#main-parts .dash-body .fa_stu_status .exam-project span{
+    display: flex;
+}
+#main-parts .dash-body .fa_stu_status .exam-project h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #3d3d3d;
+    font-weight: 600;
+    margin-left: 12px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #007AFF;
+    font-weight: 400;
+    margin-top: 18px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project .inner-pro span i{
+    font-size: 20px;
+    color: #F68B1F;
+    line-height: 24px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project .header h4{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #3D3D3D;
+    font-weight: 700;
+    line-height: 31px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project button{
+    width: 100%;
+    color: #fff;
+    background: #F68B1F;
+    border: 1px solid #F68B1F;
+    border-radius: 10px;
+    padding: 18px;
+    outline: 0;
+    margin-top: 30px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project button i{
+    font-size: 25px;
+}
+#main-parts .dash-body .fa_stu_status .exam-project button h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+}
+#main-parts .dash-body .student-status{
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 30px;
+}
+#main-parts .dash-body .student-status .header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #3D3D3D;
+    font-weight: 700;
+    line-height: 31px;
+}
+#main-parts .dash-body .student-status .box-item{
+    background: #F8FCE9;
+    padding: 40px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#main-parts .dash-body .student-status .box-item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    font-weight: 400;
+    line-height: 18px;
+    text-align:center;
+}
+#main-parts .dash-body .student-status .box-item h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #3d3d3d;
+    font-weight: 600;
+    line-height: 34px;
+    text-align:center;
+    margin-top: 10px;
+}
+#main-parts .dash-body .student-status .student-progress{
+    text-align: center;
+    margin-top: 50px;
+}
+#main-parts .dash-body .student-status .student-progress h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #3d3d3d;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 17px;
+}
+#main-parts .dash-body .student-status .student-progress .percent{
+    margin: 0 auto;
+    margin-top: 35px !important;
+}
+#main-parts .dash-body .fa_stu_status button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+}
+#main-parts .dash-body .rank-item{
+    background: linear-gradient(289.02deg, #E42313 30.75%, #F68B1F 130.01%);
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+#main-parts .dash-body .rank-item .inner-rank{
+    display: flex;
+    justify-content: space-between;
+}
+#main-parts .dash-body .rank-item h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 31px;
+}
+#main-parts .dash-body .rank-item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 75px;
+    margin-top: 40px;
+}
+#main-parts .dash-body .rank-item h2 span{
+    display: block;
+    color: #E0D120;
+}
+#main-parts .dash-body .rank-item .freelancerlogo{
+    margin-top: -40px;
+}
+#main-parts .dash-body .freelancer .img img{
+    width: 100%;
+}
+#main-parts .dash-body .freelancer H5{
+    color: #007AFF;
+}
+#main-parts .dash-body .free h2{
+    color: #007AFF;
+    margin-top: -20px !important;
+}
+#main-parts .dash-body .free h2 span{
+    color: #3d3d3d;
+}
+/* ===========================
+        main parts css end
+============================ */

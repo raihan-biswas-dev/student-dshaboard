@@ -1,0 +1,437 @@
+
+@media (max-width: 575.98px) {
+    header .search input{
+            width: 100%;
+            margin-top: 20px;
+            padding: 7px 38px;
+    }
+    header .search span{
+        top: 26px;
+    }
+    header .nav-icons {
+        margin-top: 20px;
+        text-align: center;
+    }
+    header .nav-icons span{
+        font-size: 30px;
+        margin-left: 27px;
+    }
+    header .profile{
+        margin-top: 25px;
+    }
+    #main-parts nav{
+        height: 100vh;
+    }
+    #main-parts .dash-body .inner-nav ul li {
+        display: inline-block;
+        margin-left: 29px;
+        margin-top: 40px;
+        padding: 15px 0;
+    }
+    #main-parts .dash-body .details .top {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    #main-parts .dash-body .details .top .img {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: -22px !important;
+    }
+    #main-parts .dash-body .details .top .sub-details {
+        width: 100%;
+        margin-top: 15px;
+    }
+    #main-parts .dash-body .details .top .sub-details h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    #main-parts .dash-body .details .top .sub-details h6{
+        text-align: center;
+        line-height: 18px;
+    }
+    #main-parts .dash-body .details .top .sub-details .button{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .details .top .sub-details .button a{
+        margin-top: 17px;
+    }
+    #main-parts .dash-body .details .bottom {
+        padding: 40px 15px;
+    }
+    #main-parts .dash-body .details .bottom table tr td {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #main-parts .dash-body table tr .mltd {
+        padding-left: 20px;
+    }
+    #main-parts .dash-body .status table tr td {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #main-parts .dash-body .education {
+        padding: 23px 13px;
+        text-align: center;
+    }
+    #main-parts .dash-body .inner-status .all-status {
+        padding: 17px 10px;
+    }
+    #main-parts .dash-body .status {
+        padding: 30px 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #main-parts .dash-body .inner-status .all-status h5 {
+        font-size: 16px;
+    }
+    #main-parts .dash-body .fees .item p {
+        font-size: 18px;
+    }
+    #main-parts .dash-body .fees .item h5{
+        font-size: 35px;
+    }
+    #main-parts .dash-body .fees .middle::before{
+        display: none;
+    }
+    #main-parts .dash-body .fees .middle::after{
+        display: none;
+    }
+    #main-parts .dash-body .fees .item {
+        margin-top: -10px;
+    }
+    #main-parts .dash-body .total h3 {
+        font-size: 21px;
+    }
+    #main-parts .dash-body .status .button a {
+        padding: 12px 20px;
+    }
+    #main-parts .dash-body .fa_stu_status .left .all{
+        text-align: center;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project button{
+        padding: 12px 15px;
+    }
+    #main-parts .dash-body .fa_stu_status .left .inner-part span{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .fa_stu_status .left .inner-part .inner-item span h6 {
+        font-size: 17px;
+        margin-left: 8px;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project {
+        padding: 25px;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project button i {
+        font-size: 35px;
+        margin-top: 3px;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project .inner-pro{
+        text-align: center;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project a{
+        margin-top: 0;
+    }
+    #main-parts .dash-body .rank-item .inner-rank{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .rank-item .inner-rank .img{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    #main-parts .dash-body .rank-item h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    #main-parts .dash-body .freelancer .img img {
+        width: 100%;
+        margin-left: -22px;
+    }
+    #main-parts .dash-body .rank-item h2 span {
+        color: #E0D120;
+        display: block;
+    }
+    #main-parts .dash-body .rank-item .freelancerlogo {
+        margin-top: -15px;
+        margin-left: -20px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767.98px){
+    header .search input{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    header .search span{
+        top: 30px;
+        left: 45px;
+    }
+    header .nav-icons{
+        margin-top: 20px;
+    }
+    header .nav-icons span{
+        margin-left: 20px;
+    }
+    header .profile{
+        margin-top: 23px;
+    }
+    nav ul li{
+        text-align: center;
+    }
+
+    #main-parts .dash-body .details .top {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    #main-parts .dash-body .details .top .img {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #main-parts .dash-body .details .top .sub-details{
+        width: 100%;
+    }
+    #main-parts .dash-body .details .top .sub-details h2{
+        font-size: 42px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    #main-parts .dash-body .details .top .sub-details h6{
+        margin-left: 15px;
+    }
+    #main-parts .dash-body .details .top .sub-details .button{
+        justify-content: space-around;
+    }
+    #main-parts .dash-body .details .top .sub-details .button a{
+        margin-top: -3px;
+    }
+    #main-parts .dash-body .education .edu-value {
+        text-align: center;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project button{
+        display: flex;
+        justify-content: center;
+    }
+    #main-parts .dash-body .student-status .student-progress h6{
+        font-size: 18px;
+    }
+    #main-parts .dash-body .rank-item h2 span{
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    header .search input{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    header .search span{
+        top: 30px;
+        left: 45px;
+    }
+    header .nav-icons{
+        margin-top: 20px;
+    }
+    header .nav-icons span{
+        margin-left: 20px;
+    }
+    header .profile{
+        margin-top: 23px;
+    }
+    #main-parts nav ul li .navitems.active{
+        width: 30%;
+    }
+
+    #main-parts .dash-body .details .top {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    #main-parts .dash-body .details .top .img {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #main-parts .dash-body .details .top .sub-details{
+        width: 100%;
+    }
+    #main-parts .dash-body .details .top .sub-details h2{
+        font-size: 42px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    #main-parts .dash-body .details .top .sub-details h6{
+        margin-left: 15px;
+    }
+    #main-parts .dash-body .details .top .sub-details .button{
+        justify-content: space-around;
+    }
+    #main-parts .dash-body .details .top .sub-details .button a{
+        margin-top: -3px;
+    }
+    #main-parts .dash-body .education .edu-value {
+        text-align: center;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project button{
+        display: flex;
+        justify-content: center;
+    }
+    #main-parts .dash-body .student-status .student-progress h6{
+        font-size: 18px;
+    }
+    #main-parts .dash-body .rank-item h2 span{
+        display: block;
+    }
+    #main-parts .dash-body .status{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    header .search input{
+        width: 330px;
+        margin-left: 60px;
+    }
+    header .nav-icons{
+        margin-left: -62px;
+    }
+    header .nav-icons span {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    header .search span {
+        left: 75px;
+    }
+    header .profile{
+        width: 158px;
+    }
+    header .profile .img img{
+        height: 100%;
+    }
+    header .profile .name h4{
+        margin-left: -17px;
+    }
+    #main-parts nav {
+        padding: 40px 5px;
+    }
+    #main-parts nav ul li a {
+        padding: 15px;
+        width: 122%;
+    }
+    #main-parts nav ul li .navitems.active{
+        padding: 15px;
+        width: 110%;
+    }
+    #main-parts .dash-body .details .top {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    #main-parts .dash-body .details .top .img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #main-parts .dash-body .details .top .sub-details {
+        width: 100%;
+        margin-top: -10px;
+    }
+    #main-parts .dash-body .details .top .sub-details h2 {
+        font-size: 36px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    #main-parts .dash-body .details .top .sub-details h6{
+        margin-left: 10px;
+    }
+    #main-parts .dash-body .details .top .sub-details .button{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .details .top .sub-details .button h4 {
+        margin-bottom: 48px;
+    }
+    #main-parts .dash-body .details .top .sub-details .button a{
+        width: 92%;
+        text-align: center;
+    }
+    #main-parts .dash-body .status{
+        padding: 30px;
+    }
+    #main-parts .dash-body table tr .mltd {
+        padding-left: 15px;
+    }
+    #main-parts .dash-body .inner-status .all-status h5 {
+        font-size: 16px;
+    }
+    #main-parts .dash-body .fees .item p {
+        font-size: 14px;
+    }
+    #main-parts .dash-body .fees .item h5 {
+        font-size: 20px;
+    }
+    #main-parts .dash-body .total h3 {
+        font-size: 23px;
+    }
+    #main-parts .dash-body .status .button a {
+        padding: 12px 24px;
+    }
+    #main-parts .dash-body .student-status{
+        margin-top: -1267px;
+    }
+    #main-parts .dash-body .student-status .box-item h5 {
+        font-size: 24px;
+    }
+    #main-parts .dash-body .student-status .student-progress .percent{
+        margin-left: -27px;
+    }
+    #main-parts .dash-body .student-status .student-progress .right{
+        margin-left: -11px;
+    }
+    #main-parts .dash-body .student-status .student-progress h6 {
+        font-size: 16px;
+    }
+    #main-parts .dash-body .education .row{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .education .edu-value{
+        width: 353%;
+        text-align: center;
+    }
+    #main-parts .dash-body .fa_stu_status .left{
+        width: 176%;
+    }
+    #main-parts .dash-body .fa_stu_status .exam-project{
+        width: 180%;
+    }
+    #main-parts .dash-body .fa_stu_status .attachment{
+        margin-left: 191px !important;
+    }
+    #main-parts .dash-body .rank-item .inner-rank{
+        flex-direction: column;
+    }
+    #main-parts .dash-body .rank-item .img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    #main-parts .dash-body .rank-item .img img{
+        width: 100%;
+    }
+    #main-parts .dash-body .rank-item .freelancerlogo{
+        margin-top: -1px;
+    }
+    #main-parts .dash-body .rank-item h2 {
+        font-size: 30px;
+        line-height: 49px;
+    }
+}
+@media (width: 1199.98px) {
+    #main-parts .dash-body .fa_stu_status .attachment{
+        margin-left: 167px !important;
+    }
+    
+}
+
+@media (max-width: 1440) {
+    #main-parts nav {
+        padding: 40px 15px;
+    }
+    #main-parts nav ul li a{
+        padding: 15px 22px !important;
+    }
+}
